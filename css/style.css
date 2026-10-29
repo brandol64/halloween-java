@@ -8,7 +8,7 @@
 .container{
    width: 100vw;
    height: 100vh;
-   background-image: url("../img/download.jpg");
+   background-image: url("../img/halloween-5596921_1280.webp");
    background-position: center;
    background-size: cover;
    padding: 0 8%; 
@@ -43,14 +43,14 @@
     font-size: 60px;
     margin-bottom: -5px;
 }
-.spider {
+.ghost {
     width: 250px;
     position: absolute;
     right: 25%;
     bottom: 10;
-    animation: spider 4s linear infinite;
+    animation: ghost 4s linear infinite;
 }
-@keyframes spider {
+@keyframes ghost {
     0%{
        bottom: 0;
        opacity: 0; 
