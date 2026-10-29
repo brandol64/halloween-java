@@ -26,11 +26,13 @@
    color: #fff; 
 }
 .content h1{
-    font-size: 64px;
+    font-size: 160px;
     font-weight: 600;
+    margin-top: 100px;
+
 }
 .content h1 span {
-    color: rgb(230, 131, 1);
+    color: rgb(255, 115, 0);
 
 }
 .countdown-time {
@@ -59,4 +61,10 @@
         bottom: 105%;
         opacity: 1;
     }
+}
+
+.script {
+    position: center;
+    bottom: 20px;
+    color: #fff;
 }
