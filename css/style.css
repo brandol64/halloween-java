@@ -1,7 +1,62 @@
-* {
+*
+{
     margin: 0;
     padding: 0;
-    font-family: 'poppins', sans-serif;
-    font-size: 1.25rem; /* common setup */
+    font-family: 'poppings', sans-serif;
     box-sizing: border-box;
+}
+.container{
+   width: 100vw;
+   height: 100vh;
+   background-image: url("../img/download.jpg");
+   background-position: center;
+   background-size: cover;
+   padding: 0 8%; 
+}
+.logo {
+    width: 170px;
+    height: 200px;
+    padding: 20px 0;
+    cursor: pointer;
+}
+.content {
+   top: 30%;
+   position: absolute;
+   transform: translateY(-50%);
+   color: #fff; 
+}
+.content h1{
+    font-size: 64px;
+    font-weight: 600;
+}
+.content h1 span {
+    color: rgb(230, 131, 1);
+
+}
+.countdown-time {
+   display: flex; 
+}
+.countdown-time div{
+    flex-basis: 100px;
+}
+.countdown-time div p{
+    font-size: 60px;
+    margin-bottom: -5px;
+}
+.spider {
+    width: 250px;
+    position: absolute;
+    right: 25%;
+    bottom: 10;
+    animation: spider 4s linear infinite;
+}
+@keyframes spider {
+    0%{
+       bottom: 0;
+       opacity: 0; 
+    }
+    100%{
+        bottom: 105%;
+        opacity: 1;
+    }
 }
